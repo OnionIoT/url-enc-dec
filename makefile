@@ -2,7 +2,7 @@ BINDIR := bin
 
 LIB := -lcurl
 
-all: urlencode urldecode b64decode
+all: urlencode urldecode
 
 %: %.c
 	@mkdir -p $(BINDIR)
